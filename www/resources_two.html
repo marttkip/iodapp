@@ -1,0 +1,82 @@
+<!--<div data-page="events"  class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="#" class="link">About Left</a>
+        </div>
+        <div class="center">About</div>
+        <div class="right">
+            <a href="#" class="link">About Right</a>
+        </div>
+    </div>
+</div>-->
+<!-- Navbar on about page -->
+<div class="navbar">
+    <div class="navbar-inner">
+        <!-- Now, Left and Center parts reflect page title and page links, let's slide them -->
+        <div class="left">
+	        <a href="#" class="link icon-only open-panel"> <i class="fa fa-bars"></i></a>
+	    </div>
+	    <div class="center sliding">RESOURCES</div>
+        
+    </div>
+</div>
+<div class="pages navbar-through toolbar-through">
+  <!-- Page, data-page contains page name-->
+	 <!-- Index Page-->
+	<div class="page" id="resources-page" data-page="resources" >
+		<!-- Scrollable page content-->
+		<form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init">
+	    <div class="searchbar-input">
+	      <input type="search" placeholder="Search"><a href="#" class="searchbar-clear"></a>
+	    </div><a href="#" class="searchbar-cancel">Cancel</a>
+	  </form>
+	 
+	  <!-- Search Bar overlay -->
+	  <div class="searchbar-overlay"></div>
+
+		<div class="page-content">
+		  <div class="content-block-title">Our Resources</div>
+		  	<!-- This block will be displayed if nothing found -->
+		    <div class="content-block searchbar-not-found">
+		      <div class="content-block-inner">Nothing found</div>
+		    </div>	 
+		    <!-- This block will be displayed if anything found, and this list block is used a searbar target -->
+		    <div class="list-block list-block-search searchbar-found media-list">
+			  <ul class="resources-items">
+			    <li>
+			      <a href="event-single.html" class="item-link item-content">
+			        <div class="item-media">
+			        		<div class="item-media">
+					            <i class="fa fa-download"></i>
+					        </div>
+			         </div>
+			        <div class="item-inner">
+			          <div class="item-title-row">
+			            <div class="item-title">Yellow Submarine</div>
+			          </div>
+			           <!-- <div class="item-subtitle"> Seminar </div> -->
+			          <div class="item-text">Published: 5th May 2016 Downloads: <span class="badge">5</span></div>
+			        </div>
+			      </a>
+			    </li>
+			    <li>
+			      <a href="event-single.html" class="item-link item-content">
+			        <div class="item-media">
+			        		<div class="item-media">
+					            <i class="fa fa-download"></i>
+					        </div>
+			         </div>
+			        <div class="item-inner">
+			          <div class="item-title-row">
+			            <div class="item-title">Yellow Submarine</div>
+			          </div>
+			           <!-- <div class="item-subtitle"> Seminar </div> -->
+			          <div class="item-text">Published: 5th May 2016 Downloads: <span class="badge">5</span></div>
+			        </div>
+			      </a>
+			    </li>
+			  </ul>
+			</div>
+		</div>
+	</div>
+</div>
